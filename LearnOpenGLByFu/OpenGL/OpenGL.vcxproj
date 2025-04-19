@@ -19,7 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Src\Shader.cpp" />
     <ClCompile Include="Src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Shader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Res\Shaders\fragmentSource.txt" />
+    <Text Include="Res\Shaders\vertexSource.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

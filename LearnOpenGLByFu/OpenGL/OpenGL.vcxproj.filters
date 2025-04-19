@@ -18,5 +18,17 @@
     <ClCompile Include="Src\main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Src\Shader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Shader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Res\Shaders\vertexSource.txt" />
+    <Text Include="Res\Shaders\fragmentSource.txt" />
   </ItemGroup>
 </Project>

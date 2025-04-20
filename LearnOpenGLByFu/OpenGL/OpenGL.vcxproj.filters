@@ -26,9 +26,23 @@
     <ClInclude Include="Src\Shader.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Src\stb_image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Res\Shaders\vertexSource.txt" />
     <Text Include="Res\Shaders\fragmentSource.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\Textures\container.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Textures\wall.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Textures\awesomeface.png">
+      <Filter>资源文件</Filter>
+    </Image>
   </ItemGroup>
 </Project>
